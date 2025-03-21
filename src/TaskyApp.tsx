@@ -3,7 +3,7 @@ function TaskyApp() {
 		<>
 			<h1>TaskyApp</h1>
 		</>
-	)
+	);
 }
 
-export default TaskyApp
+export default TaskyApp;
