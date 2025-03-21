@@ -1,7 +1,7 @@
 import { Button, Form, InputGroup } from 'react-bootstrap';
 import { VscSend } from 'react-icons/vsc';
 
-export const InputTask = () => {
+export const TaskInput = () => {
 	return (
 		<InputGroup>
 			<Form.Control
