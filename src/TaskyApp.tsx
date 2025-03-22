@@ -1,7 +1,5 @@
 import { AppRouter } from './routers';
 
-function TaskyApp() {
+export function TaskyApp() {
 	return <AppRouter />;
 }
-
-export default TaskyApp;
