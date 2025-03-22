@@ -1,5 +1,5 @@
 import { AppRouter } from './routers';
 
-export function TaskyApp() {
+export function BabaxApp() {
 	return <AppRouter />;
 }

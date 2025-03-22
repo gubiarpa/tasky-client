@@ -8,11 +8,11 @@ import { QueryClientProvider } from '@tanstack/react-query';
 import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
 import queryClient from './queryClient.ts';
 
-import { TaskyApp } from './TaskyApp.tsx';
+import { BabaxApp } from './BabaxApp.tsx';
 
 createRoot(document.getElementById('root')!).render(
 	<QueryClientProvider client={queryClient}>
-		<TaskyApp />
+		<BabaxApp />
 		<ReactQueryDevtools />
 	</QueryClientProvider>
 );
