@@ -1,7 +1,7 @@
 import { Form } from 'react-bootstrap';
 import { TaskInput } from '../components';
 import { AppTitle } from '../components/AppTitle';
-import { TasksTable } from '../components/TasksTable';
+import { TasksTable } from '../components/tasks/TasksTable';
 
 export const HomePage = () => {
 	const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {

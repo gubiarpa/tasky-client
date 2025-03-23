@@ -1,1 +1,1 @@
-export * from './TaskInput';
+export * from './tasks/TaskInput';
